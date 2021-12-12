@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #083b4c;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: auto;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px;
+    /* TEST*/
+    background-color: red;
+}
